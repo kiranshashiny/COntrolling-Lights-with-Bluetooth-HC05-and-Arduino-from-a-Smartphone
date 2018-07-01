@@ -65,11 +65,19 @@ There is a reset button on the HC05 Controller in case you want to reset the con
 The Upload of the Arduino Code will not work if the Rx and Tx pins on the Arduino are connected.
 To upload new code successfully  unhook the Tx and Rx pins from the HC05 to the Arduino first and then Upload the new code.
 
+## Connecting the HC05 to the SmartPhone App.
+
+- Check that the Bluetooth Module is first identified in the Smartphone. It should say 
+- "Connect to Device" and your device has to get identified in the list of other devices.
+
+- There are multiple modes that the SmartPhone app works. I had to choose "Terminal Mode", and I clicked on '1' or a '0' and Finished and noticed that the character got transmitted to the Arduino Serial Monitor.
+
+Note : Setting the Serial Monitor to 38K did not work too well ! so had to scale back to 9600.
+
 
 ## Some snaps from the demo:
 
 ![screen shot 2018-07-01 at 7 08 43 pm](https://user-images.githubusercontent.com/14288989/42134975-3f4dcc00-7d62-11e8-9dc7-0b5a19fca3cc.png)
-
 
 ## Serial Monitor Output :
 
@@ -77,14 +85,19 @@ This prints whatever is sent from the bluetooth
 
 ![screen shot 2018-07-01 at 7 06 33 pm](https://user-images.githubusercontent.com/14288989/42134976-3f7819d8-7d62-11e8-9efb-6f33049067d8.png)
 
-2.
+## Bluetooth HC05 Pin diagram
+
 ![screen shot 2018-07-01 at 7 27 08 pm](https://user-images.githubusercontent.com/14288989/42135196-1361e4d4-7d65-11e8-8a32-e4598c4bbd2f.png)
-3.
+
+## Module Front picture :
+
 ![img_20180701_190926 1](https://user-images.githubusercontent.com/14288989/42135198-1a5bf36a-7d65-11e8-8072-366ee77539f4.jpg)
 
-6.
+## Module Back side view:
+
 ![img_20180701_192718](https://user-images.githubusercontent.com/14288989/42135222-6b8dd71c-7d65-11e8-91f6-4c7e33b5e602.jpg)
-5.
+
+## Demo showing that the light is lit when the user presses '1'
 ![img_20180701_190904](https://user-images.githubusercontent.com/14288989/42135200-1abd4dae-7d65-11e8-8068-535dd7ea5853.jpg)
 
 
