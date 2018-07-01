@@ -16,15 +16,14 @@ The App installed from Google PlayStore was https://play.google.com/store/apps/d
 
 ## Connections :
 
-HC05  Arduino
+HC05 -> Arduino
 
 - Rx -> 	Tx
 - Tx -> 	Rx
 - +5v ->	5V
 - GND -> 	GND
 
-( Connecting the Arduino to the LED is not mentioned as it is assumed that the user is familiar with basic connections and schematics )
-
+(Connecting the Arduino to the LED is not mentioned as it is assumed that the user is familiar with basic connections and schematics)
 
 ## The Program
 
@@ -40,7 +39,6 @@ Next do the connections from the HC05 to the Arduino.
 
 (If you want to upload repeatedly when the pins of the Arduino Tx and Rx are connected then the Upload will fail. For a short interval when the upload is happening remove the Rx and Tx pins to upload successfully )
 
- 
 The Arduino Program is a simple code that reads the serial input and checks if it's a 0 or a 1.
 
 If 0, then the signal is sent to the LED to turn OFF.
@@ -95,6 +93,8 @@ Note : Setting the Serial Monitor to 38K did not work too well ! so had to scale
 
 
 ## Some helpful snaps that I found useful for this demo:
+
+Reason I chose this app was A) Good Rating B) Comments from different users, C) Ease of Use and Straightforward Terminal character entries D) No popup ads.
 
 ![screen shot 2018-07-01 at 7 08 43 pm](https://user-images.githubusercontent.com/14288989/42134975-3f4dcc00-7d62-11e8-9dc7-0b5a19fca3cc.png)
 
