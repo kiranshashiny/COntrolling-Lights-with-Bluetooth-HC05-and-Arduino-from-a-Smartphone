@@ -87,20 +87,23 @@ To upload new code successfully  unhook the Tx and Rx pins from the HC05 to the 
 ## Connecting the HC05 to the SmartPhone App.
 
 - Check that the Bluetooth Module is first identified in the Smartphone. It should say 
-- "Connect to Device" and your device has to get identified in the list of other devices.
+"Connect to Device" and your device has to get identified in the list of other devices.
 
-- There are multiple modes that the SmartPhone app works. I had to choose "Terminal Mode", and I clicked on '1' or a '0' and Finished and noticed that the character got transmitted to the Arduino Serial Monitor.
+- There are multiple modes that the SmartPhone app works. I had to choose "Terminal Mode", and I clicked on '1' or a '0' and hit Finished and noticed that the character got transmitted to the Arduino Serial Monitor.
 
 Note : Setting the Serial Monitor to 38K did not work too well ! so had to scale back to 9600.
 
 
-## Some snaps from the demo:
+## Some helpful snaps that I found useful for this demo:
 
 ![screen shot 2018-07-01 at 7 08 43 pm](https://user-images.githubusercontent.com/14288989/42134975-3f4dcc00-7d62-11e8-9dc7-0b5a19fca3cc.png)
 
 ## Serial Monitor Output :
 
-This prints whatever is sent from the bluetooth 
+This prints whatever is sent from the bluetooth, notice that I sent a '0' and a '1' 
+Here I am printing the ASCII in Decimals. ( https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/com.ibm.aix.networkcomm/conversion_table.htm)`
+
+48 and 49 are DEC equivalents of '0' and '1' respectively.
 
 ![screen shot 2018-07-01 at 7 06 33 pm](https://user-images.githubusercontent.com/14288989/42134976-3f7819d8-7d62-11e8-9efb-6f33049067d8.png)
 
