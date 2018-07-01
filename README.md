@@ -81,13 +81,12 @@ This prints whatever is sent from the bluetooth
 ![screen shot 2018-07-01 at 7 27 08 pm](https://user-images.githubusercontent.com/14288989/42135196-1361e4d4-7d65-11e8-8a32-e4598c4bbd2f.png)
 3.
 ![img_20180701_190926 1](https://user-images.githubusercontent.com/14288989/42135198-1a5bf36a-7d65-11e8-8072-366ee77539f4.jpg)
-4.
-![img_20180701_190926](https://user-images.githubusercontent.com/14288989/42135199-1a8ead50-7d65-11e8-90a5-6620fc0d3541.jpg)
-5.
-![img_20180701_190904](https://user-images.githubusercontent.com/14288989/42135200-1abd4dae-7d65-11e8-8068-535dd7ea5853.jpg)
 
 6.
 ![img_20180701_192718](https://user-images.githubusercontent.com/14288989/42135222-6b8dd71c-7d65-11e8-91f6-4c7e33b5e602.jpg)
+5.
+![img_20180701_190904](https://user-images.githubusercontent.com/14288989/42135200-1abd4dae-7d65-11e8-8068-535dd7ea5853.jpg)
+
 
 
 
