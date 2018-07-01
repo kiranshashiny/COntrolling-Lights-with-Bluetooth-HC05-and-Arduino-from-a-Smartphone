@@ -7,21 +7,40 @@ The App installed from Google PlayStore was https://play.google.com/store/apps/d
 
 ## Components List :
 
-Arduino
-HC05 Bluetooth Module
-Arduino Bluetooth App from Google Playstore.
+- Arduino
+- HC05 Bluetooth Module
+- Arduino Bluetooth App from Google Playstore.
+- 330 ohm resistor
+- LED
 
 
 ## Connections :
 
 HC05  Arduino
 
-Rx -> 	Tx
-Tx -> 	Rx
-+5v ->     5V
-GND -> 	GND
+- Rx -> 	Tx
+- Tx -> 	Rx
+- +5v ->	5V
+- GND -> 	GND
+
+( Connecting the Arduino to the LED is not mentioned as it is assumed that the user is familiar with basic connections and schematics )
 
 
+## The Program
+
+This demo is to show how we can send signals from the Smartphone app ( Android in my case ) to the Bluetooth module which is nearby connected to the Arduino.
+
+The User sends signals like '1' or a '0' which will light up the LED connected to the Arduino, which can be interpreted as Home Automation where the user can control lights in the house to turn off and on.
+
+First Install the app listed below.
+
+Next, upload the code listed in this repo.
+
+Next do the connections from the HC05 to the Arduino.
+
+(If you want to upload repeatedly when the pins of the Arduino Tx and Rx are connected then the Upload will fail. For a short interval when the upload is happening remove the Rx and Tx pins to upload successfully )
+
+ 
 The Arduino Program is a simple code that reads the serial input and checks if it's a 0 or a 1.
 
 If 0, then the signal is sent to the LED to turn OFF.
